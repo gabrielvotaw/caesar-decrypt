@@ -1,9 +1,9 @@
 # Caesar Decrypt
-A Caesar Cipher is a shift cipher that encrypts a message by shifting letters of the message a set number of letters over.<br />
+A Caesar cipher is a shift cipher that encrypts a message by shifting letters of the message a set number of letters over.<br />
 <br />
 Thus, there are only 25 possible keys. (A maps to B, C, ... , Z)<br />
 <br />
-This program was created to compute all 25 possible plaintext of a Caesar Cipher.<br />
+This program was created to compute all 25 possible plaintext of a Caesar cipher.<br />
 <br />
 # MIT License
 Copyright (c) 2021 Gabriel Votaw
