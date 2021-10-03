@@ -26,11 +26,10 @@
 
 package caesardecrypt;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class CaesarDecrypt {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String usage = "CaesarDecrypt <ciphertext>\n";
         usage += "Ciphertext restricted to aplhabetic characters\n";
 
