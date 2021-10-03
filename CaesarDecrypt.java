@@ -30,13 +30,13 @@ import java.util.Scanner;
 
 public class CaesarDecrypt {
     public static void main(String[] args) {
-        String usage = "CaesarDecrypt <ciphertext>\n";
-        usage += "Ciphertext restricted to aplhabetic characters\n";
+        String usage = "decrypt <ciphertext>\n";
+        usage += "ciphertext restricted to aplhabetic characters\n";
 
         Scanner in = new Scanner(System.in);
         String[] tokens = in.nextLine().split(" ");
         
-        if (tokens.length != 2 || !tokens[0].equals("CaesarDecrypt")) {
+        if (tokens.length != 2 || !tokens[0].equals("decrypt")) {
             System.out.println(usage);
             System.exit(1);
         }
